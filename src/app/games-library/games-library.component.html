@@ -1,0 +1,5 @@
+<app-create-game></app-create-game>
+<div *ngFor="let game of store.games">
+    <app-game-component></app-game-component>
+</div>
+<button (click)='handleLoadMore()'>Loade more</button>
